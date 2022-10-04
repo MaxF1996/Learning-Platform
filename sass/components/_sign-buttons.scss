@@ -1,0 +1,40 @@
+.sign-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.sign-buttons__button {
+  padding: 9.5px 24px;
+  border-radius: 4px;
+
+  color: $main-light-color;
+  background-color: $accent-color;
+
+  font-weight: 600;
+  line-height: 1.5;
+
+  transition: background-color $main-transition;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color-dark;
+  }
+
+  &--secondary {
+    padding: 8.5px 23px;
+    border: 1px solid #bcd0e5;
+
+    color: var(--logo-color);
+    background-color: inherit;
+
+    transition: color $main-transition, border $main-transition;
+  }
+  &--secondary:hover,
+  &--secondary:focus {
+    color: $accent-color;
+    background-color: inherit;
+
+    border: 1px solid $accent-color;
+  }
+}

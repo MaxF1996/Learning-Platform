@@ -1,0 +1,33 @@
+.header {
+  padding: 18.5px 0;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.header__nav-link {
+  line-height: 1.75;
+
+  color: var(--main-title-color);
+
+  transition: color $main-transition;
+
+  &--main-link {
+    font-weight: 600;
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header__sign-buttons {
+  margin-left: 24px;
+}

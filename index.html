@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body class="theme-light" data-page>
+    <header class="header">
+      <div class="container flex container--header">
+        <a class="brand-link" href="./index.html">
+          <img src="./images/logo.svg" alt="Logo" class="brand__logo" />
+          <p class="brand__name">Product</p>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#product" class="header__nav-link header__nav-link--main-link">Product</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#customers" class="header__nav-link">Customers</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#pricing" class="header__nav-link">Pricing</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#resources" class="header__nav-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__sign-buttons sign-buttons">
+          <li class="sign-buttons__item">
+            <button class="sign-buttons__button sign-buttons__button--secondary" type="button">
+              Sign In
+            </button>
+          </li>
+          <li class="sign-buttons__item">
+            <button class="sign-buttons__button" type="button">Sign Up</button>
+          </li>
+          <li class="sign-buttons__item">
+            <button class="theme-button" type="button" data-theme-switch>
+              <svg class="theme-button__theme-icon">
+                <use href="./images/icons.svg#theme"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./js/theme-switch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/* Загальні стилі */
+
+/* * {
+  outline: 1px solid teal;
+} */
+
+body {
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+
+  transition: background-color $main-transition;
+}
+
+.theme-light {
+  --main-bg-color: #ffffff;
+  --logo-color: #173a56;
+  --main-title-color: #22343d;
+  background-color: var(--main-bg-color);
+}
+
+.theme-dark {
+  --main-bg-color: #201f1f;
+  --logo-color: #02897a;
+  --main-title-color: #02897a;
+
+  background-color: var(--main-bg-color);
+
+  & .header__nav-link:hover,
+  & .header__nav-link:focus {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  background-color: inherit;
+  &--header {
+    max-width: 1120px;
+    padding: 0 5px;
+    margin: 0 auto;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.unvisible {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
