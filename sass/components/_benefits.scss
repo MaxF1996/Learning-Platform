@@ -1,0 +1,89 @@
+.benefits {
+  text-align: center;
+  padding-bottom: 90px;
+  background-image: url(../../images/bg-curve.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.benefits__title {
+  max-width: 535px;
+  text-align: center;
+  margin: 0 auto 66px;
+}
+
+.benefits__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  text-align: left;
+  column-gap: 46px;
+
+  margin-bottom: 60px;
+}
+
+.benefits__list-item {
+  flex: 0 0 240px;
+}
+
+.benefits__list-item:nth-child(1) .benefits__picture {
+  @include icon-with-bg(#02897a);
+}
+
+.benefits__list-item:nth-child(2) .benefits__picture {
+  @include icon-with-bg(#4d8dff);
+}
+
+.benefits__list-item:nth-child(3) .benefits__picture {
+  @include icon-with-bg(#740a76);
+}
+
+.benefits__list-item:nth-child(4) .benefits__picture {
+  @include icon-with-bg(#f03e3d);
+}
+
+.benefits__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.benefits__icon {
+  margin: 0 auto;
+  height: 18px;
+}
+
+.benefits-icon-1 {
+  width: 12px;
+}
+.benefits-icon-2 {
+  width: 18px;
+}
+.benefits-icon-3 {
+  width: 16px;
+}
+.benefits-icon-4 {
+  width: 14px;
+}
+
+.benefits__name {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 600;
+
+  margin-bottom: 13px;
+}
+
+.benefits__button {
+  @include primary-button(14.5px 33px);
+
+  font-weight: 700;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+  text-align: center;
+}

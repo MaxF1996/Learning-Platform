@@ -1,0 +1,24 @@
+@mixin primary-button($padding) {
+  padding: $padding;
+  background-color: $accent-color;
+  color: $main-light-color;
+  border-radius: 4px;
+
+  transition: background-color $main-transition;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color-dark;
+  }
+}
+
+@mixin icon-with-bg($bg) {
+  background-color: $bg;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 19px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

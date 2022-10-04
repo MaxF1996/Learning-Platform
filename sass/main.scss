@@ -1,8 +1,12 @@
 @import './base/normalize';
 @import './base/my-reset';
 @import './utils/vars';
+@import './utils/mixins';
 @import './base/common';
 @import './components/header';
 @import './components/brand-link';
 @import './components/sign-buttons';
 @import './components/theme-button';
+@import './components/general-info';
+@import './components/benefits';
+@import './components/management';

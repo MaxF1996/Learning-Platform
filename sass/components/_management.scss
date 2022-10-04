@@ -1,0 +1,20 @@
+.management {
+  padding: 150px 0;
+}
+
+.management__flex {
+  column-gap: 83px;
+}
+
+.management__title {
+  margin-bottom: 23px;
+}
+
+.management__description {
+  margin-bottom: 25px;
+  line-height: 1.62;
+}
+
+.management__title + .management__description {
+  margin-bottom: 30px;
+}
