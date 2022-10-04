@@ -203,6 +203,9 @@ body {
   --main-text-color: #22343d;
   background-color: var(--main-bg-color);
 }
+.theme-light .benefits {
+  background-image: url(../images/bg-curve.png);
+}
 
 .theme-dark {
   --main-bg-color: #201f1f;
@@ -467,7 +470,6 @@ body {
 .benefits {
   text-align: center;
   padding-bottom: 90px;
-  background-image: url(../images/bg-curve.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 100%;

@@ -17,6 +17,10 @@ body {
   --main-title-color: #22343d;
   --main-text-color: #22343d;
   background-color: var(--main-bg-color);
+
+  & .benefits {
+    background-image: url(../images/bg-curve.png);
+  }
 }
 
 .theme-dark {
